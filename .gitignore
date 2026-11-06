@@ -1,0 +1,8 @@
+dist/
+.DS_Store
+__pycache__/
+.env
+*.otf
+*.ttf
+*.woff
+*.woff2

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Konference, školení i společenské večery v Hotelu Belvedere Praha. Objevte sál Belvedere, Memphis a salonek Letná a připravte nezávaznou poptávku.">
+  <meta name="theme-color" content="#f1e7db">
+  <title>Konference & eventy | Hotel Belvedere Praha</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/aventa-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/belvedere-hall.jpg" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#obsah">Přejít na obsah</a>
+  <header class="mobile-header">
+    <a href="https://www.hotelbelvedereprague.cz/cz/" aria-label="Hotel Belvedere — hlavní stránka"><img src="assets/logo.svg" alt="Hotel Belvedere Praha" width="154" height="66"></a>
+    <button class="menu-toggle" aria-controls="sidebar" aria-expanded="false"><span></span><span></span><span class="sr-only">Menu</span></button>
+  </header>
+  <aside id="sidebar" class="sidebar" aria-label="Hotelová navigace">
+    <a class="brand" href="https://www.hotelbelvedereprague.cz/cz/"><img src="assets/logo.svg" alt="Hotel Belvedere Praha" width="185" height="92"></a>
+    <nav aria-label="Hlavní navigace">
+      <a href="https://www.hotelbelvedereprague.cz/cz/">Hotel Belvedere</a>
+      <a href="https://www.hotelbelvedereprague.cz/cz/pokoje-a-suity/">Pokoje & suity</a>
+      <a href="#obsah" aria-current="page">Konference & eventy</a>
+      <div class="subnav"><a href="#prostory">Naše prostory</a><a href="#zazemi">Zázemí & catering</a><a href="#galerie">Fotogalerie</a></div>
+      <a href="https://www.hotelbelvedereprague.cz/cz/restaurace/">Restaurace</a>
+      <a href="#kontakt">Kontakty</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <a class="button outline" href="#poptavka">Poptat akci</a>
+      <a href="tel:+420220106111">+420 220 106 111</a>
+      <a href="mailto:belvedere@hhotels.cz">belvedere@hhotels.cz</a>
+      <span class="sidebar-address">Milady Horákové 19 · Praha 7</span>
+      <div class="sidebar-foot"><span>H&HOTELS GROUP</span><span class="preview-label">PREZENTAČNÍ NÁHLED</span></div>
+    </div>
+  </aside>
+  <main id="obsah">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/belvedere-hall.jpg" width="1920" height="1280" alt="Historický sál Belvedere s galerií a divadelním uspořádáním">
+      <div class="hero-topline"><span>PRAHA 7 · LETNÁ</span><a href="#poptavka">Vaše akce začíná zde</a></div>
+      <div class="hero-content"><p class="eyebrow light">HOTEL BELVEDERE PRAHA</p><h1 id="hero-title"><span class="sr-only">Konference & eventy na pražské Letné.</span><picture><source media="(max-width:760px)" srcset="assets/headings/hero-mobile.svg"><img class="brand-heading" src="assets/headings/hero.svg" alt="" aria-hidden="true" width="693.09" height="175.91"></picture></h1><p>Od komorního setkání po večer ve velkém stylu.<br>Tři osobité prostory. Jedna pražská adresa.</p><a href="#poptavka" class="button filled">Nezávazně poptat akci</a></div>
+      <div class="hero-bottom"><a href="#prostory">Objevte naše prostory</a><button class="film-button" id="open-film"><span class="play-icon" aria-hidden="true">▶</span> Nahlédněte do sálu <span class="film-length">00:16</span></button></div>
+    </section>
+    <div class="facts-strip" aria-label="Přehled nabídky"><div><strong>3</strong><span>osobité prostory</span></div><div><strong>300</strong><span>hostů při plese v sále</span></div><div><strong>149</strong><span>hotelových pokojů</span></div><div><strong>1</strong><span>místo pro celou vaši akci</span></div></div>
+    <section class="intro section-pad">
+      <div class="heading-with-shadow"><p class="eyebrow">VÁŠ PROGRAM. NAŠE ZÁZEMÍ.</p><h2><span class="sr-only">Od pracovního setkání po slavnostní večer.</span><img class="brand-heading" src="assets/headings/intro.svg" alt="" aria-hidden="true" width="449.95" height="105.61"></h2></div>
+      <div class="intro-copy"><p>Pracovní snídaně, prezentace, celodenní konference i slavnostní večer. V Belvedere si vyberete prostor, který odpovídá charakteru vaší akce.</p><p>Historický sál s galerií, moderní Memphis nebo světlý salonek Letná. K tomu catering, technické vybavení a možnost ubytování přímo v hotelu.</p><a class="text-link" href="#prostory">Najděte svůj prostor</a></div>
+    </section>
+    <section id="prostory" class="spaces section-pad" aria-labelledby="spaces-title">
+      <div class="section-top"><div><p class="eyebrow">TŘI PROSTORY, MNOHO MOŽNOSTÍ</p><h2 id="spaces-title"><span class="sr-only">Vyberte si ten svůj.</span><img class="brand-heading" src="assets/headings/spaces.svg" alt="" aria-hidden="true" width="389.06" height="54.11"></h2></div><span class="section-index" aria-hidden="true">01 / PROSTORY</span></div>
+      <div class="room-tabs" role="tablist" aria-label="Konferenční prostory"><button id="tab-belvedere" role="tab" aria-selected="true" aria-controls="room-panel" tabindex="0" data-room="belvedere"><small>01</small> Sál Belvedere <span>až 300 hostů</span></button><button id="tab-memphis" role="tab" aria-selected="false" aria-controls="room-panel" tabindex="-1" data-room="memphis"><small>02</small> Memphis <span>až 100 hostů</span></button><button id="tab-letna" role="tab" aria-selected="false" aria-controls="room-panel" tabindex="-1" data-room="letna"><small>03</small> Salonek Letná <span>až 25 hostů</span></button></div>
+      <div id="room-panel" class="room-panel" role="tabpanel" aria-labelledby="tab-belvedere" tabindex="0">
+        <button class="room-image-button" id="room-zoom" aria-label="Zvětšit fotografii sálu Belvedere"><img id="room-image" src="assets/hall-balcony.jpg" width="1200" height="800" loading="lazy" alt="Sál Belvedere z galerie"><span class="image-caption"><span id="room-image-caption">Sál Belvedere · pohled z galerie</span></span></button>
+        <div class="room-copy"><p class="eyebrow" id="room-kicker">HISTORIE, KTERÁ DÁ AKCI ATMOSFÉRU</p><h3 id="room-name"><span class="sr-only">Sál Belvedere</span><img class="brand-heading" src="assets/headings/room-belvedere.svg" alt="" aria-hidden="true" width="212.66" height="33.7"></h3><p id="room-description">Velkorysý sál s galerií, pódiem a tanečním parketem. Vlastní vstup z ulice, šatna a dva bary tvoří zázemí pro konference i společenské večery.</p><div class="room-specs"><div><strong id="room-area">240 m<sup>2</sup></strong><span id="room-area-note">plocha bez galerie</span></div><div><strong id="room-max">až 300</strong><span id="room-max-note">hostů při plese</span></div></div><div class="layouts" id="room-layouts"><span>Divadlo <b>200</b></span><span>Školení <b>120</b></span><span>Ples <b>300</b></span></div><p class="room-note">Kapacita závisí na uspořádání a podobě akce.</p><a class="text-link room-select" href="#poptavka" data-select-room="belvedere">Poptat tento prostor</a></div>
+      </div>
+    </section>
+    <section id="zazemi" class="services">
+      <div class="service-photo"><img src="assets/catering.jpg" width="1200" height="800" alt="Výběr občerstvení z cateringu Belvedere" loading="lazy"><span class="photo-label">DETAILY, KTERÉ DOTVÁŘEJÍ CELEK</span></div>
+      <div class="services-copy"><p class="eyebrow">VŠE NA JEDNÉ ADRESE</p><h2><span class="sr-only">Catering, technika a ubytování.</span><img class="brand-heading" src="assets/headings/services.svg" alt="" aria-hidden="true" width="349.4" height="103.62"></h2><div class="service-line"><span aria-hidden="true">01</span><div><h3>Catering podle vašeho programu</h3><p>Od coffee breaku přes servírovaný oběd až po večerní raut. Občerstvení sladíme s rytmem akce.</p></div></div><div class="service-line"><span aria-hidden="true">02</span><div><h3>Technika pro vaše vystoupení</h3><p>Wi-Fi, projekce, flipchart či ozvučení s mikrofonem. Konkrétní vybavení připravíme podle vašich potřeb.</p></div></div><div class="service-line"><span aria-hidden="true">03</span><div><h3>Zůstaňte i přes noc</h3><p>Akce a ubytování pod jednou střechou. Hotel nabízí 149 pokojů včetně exekutivního patra.</p></div></div><a href="#poptavka" class="text-link">Sestavme vaši akci společně</a></div>
+    </section>
+    <section id="galerie" class="gallery section-pad"><div class="section-top"><div><p class="eyebrow">SÁL BELVEDERE · MEMPHIS · LETNÁ</p><h2><span class="sr-only">Nahlédněte dovnitř.</span><img class="brand-heading" src="assets/headings/gallery.svg" alt="" aria-hidden="true" width="410.8" height="43.89"></h2></div><span class="section-index" aria-hidden="true">02 / ATMOSFÉRA</span></div><div class="gallery-grid"><button data-gallery="assets/hall-stage.jpg" data-caption="Sál Belvedere · pódium a divadelní uspořádání"><img src="assets/hall-stage.jpg" width="1000" height="667" loading="lazy" alt="Sál Belvedere s pódiem"><span>Sál Belvedere </span></button><button data-gallery="assets/memphis-wide.jpg" data-caption="Memphis · konferenční prostor s projekcí"><img src="assets/memphis-wide.jpg" width="1000" height="667" loading="lazy" alt="Konferenční prostor Memphis s projekcí"><span>Memphis </span></button><button data-gallery="assets/letna-coffee.jpg" data-caption="Salonek Letná · setkání s denním světlem"><img src="assets/letna-coffee.jpg" width="1000" height="667" loading="lazy" alt="Salonek Letná s připraveným coffee breakem"><span>Salonek Letná </span></button></div></section>
+    <section id="poptavka" class="enquiry section-pad" aria-labelledby="form-title"><div class="enquiry-intro"><p class="eyebrow">ZAČNĚME VAŠÍ PŘEDSTAVOU</p><h2 id="form-title"><span class="sr-only">Jakou akci spolu připravíme?</span><img class="brand-heading" src="assets/headings/enquiry.svg" alt="" aria-hidden="true" width="371.49" height="110.13"></h2><p>Napište nám termín, počet hostů a pár slov o své akci. Pomůžeme vám vybrat vhodný prostor a připravit nabídku.</p><div class="contact-person"><div><strong>Hotel Belvedere Praha</strong><a href="tel:+420220106111">+420 220 106 111</a><a href="mailto:belvedere@hhotels.cz">belvedere@hhotels.cz</a></div></div><div class="form-preview-note" id="demo-note"><span aria-hidden="true">◌</span><p>Toto je prezentační náhled. Formulář si můžete vyzkoušet, údaje se nikam neodesílají.</p></div></div>
+      <form id="lead-form" class="lead-form" method="post">
+        <noscript><p>Pro vyzkoušení formuláře je potřeba JavaScript. Kontakt na hotel: +420 220 106 111.</p></noscript>
+        <div class="form-step"><span>01</span><h3>Vaše akce</h3><span class="required-note">* Povinné údaje</span></div>
+        <div class="form-grid"><label>Typ akce *<select name="eventType" required><option value="">Vyberte typ akce</option value="conference">Konference / prezentace</option><option value="training">Školení / workshop</option><option value="meeting">Pracovní setkání</option><option value="celebration">Společenská akce / oslava</option><option value="other">Jiná akce</option></select></label><label>Preferovaný prostor *<select name="room" required><option value="unsure">Nechám si doporučit</option value="belvedere">Sál Belvedere</option><option value="memphis">Memphis</option><option value="letna">Salonek Letná</option></select></label><label>Předpokládaný termín *<input type="date" name="date" required></label><label>Počet hostů *<input type="number" name="guests" min="1" max="300" inputmode="numeric" placeholder="Např. 50" required></label></div>
+        <p class="capacity-hint" id="capacity-hint" aria-live="polite"></p>
+        <fieldset class="extras"><legend>Co dalšího pro vás zajistíme?</legend><label><input type="checkbox" name="services" value="catering"><span>Catering</span></label><label><input type="checkbox" name="services" value="technology"><span>Technické vybavení</span></label><label><input type="checkbox" name="services" value="accommodation"><span>Ubytování</span></label></fieldset>
+        <div class="form-step second"><span>02</span><h3>Kontakt na vás</h3></div><div class="form-grid"><label>Jméno a příjmení *<input name="name" autocomplete="name" maxlength="120" placeholder="Vaše jméno" required></label><label>Společnost<input name="company" autocomplete="organization" maxlength="160" placeholder="Název společnosti"></label><label>E-mail *<input type="email" name="email" autocomplete="email" maxlength="254" placeholder="vas@email.cz" required></label><label>Telefon<input type="tel" name="phone" autocomplete="tel" maxlength="40" placeholder="+420"></label></div><label class="message-label">Vaše představa<textarea name="message" rows="3" maxlength="4000" placeholder="Program, uspořádání, čas nebo cokoli dalšího, co bychom měli vědět…"></textarea></label>
+        <div class="honeypot" aria-hidden="true"><label>Webová stránka<input name="website" tabindex="-1" autocomplete="off"></label></div>
+        <label class="privacy"><input type="checkbox" name="privacy" required><span>Beru na vědomí <a href="https://www.hotelbelvedereprague.cz/cz/gdpr/" target="_blank" rel="noopener">informace o zpracování osobních údajů</a> pro vyřízení poptávky. *</span></label><button type="submit" class="button dark" id="submit-lead" disabled><span>Připravit ukázkovou poptávku</span></button><p class="form-footnote" id="form-footnote">Nezávazná poptávka · Ukázkový režim bez odeslání</p><div id="form-result" class="form-result" role="status" aria-live="polite" tabindex="-1" hidden></div>
+      </form>
+    </section>
+    <section class="faq section-pad"><p class="eyebrow">DOBRÉ VĚDĚT</p><h2><span class="sr-only">Ještě než se potkáme.</span><img class="brand-heading" src="assets/headings/faq.svg" alt="" aria-hidden="true" width="429.52" height="50.71"></h2><details><summary>Jaký prostor je vhodný pro naši akci?<span aria-hidden="true">+</span></summary><p>Pro menší jednání a školení je vhodný salonek Letná. Memphis nabízí moderní konferenční zázemí pro až 100 hostů. Sál Belvedere využijete pro velké konference i společenské večery. Výběr a uspořádání s vámi projdeme podle programu a počtu účastníků.</p></details><details><summary>Je možné zajistit občerstvení a ubytování?<span aria-hidden="true">+</span></summary><p>Ano. Do poptávky uveďte, zda potřebujete coffee break, oběd, večeři či raut a kolik hostů bude chtít v hotelu přenocovat. Dostupnost i konkrétní nabídku potvrdí hotel.</p></details><details><summary>Znamená odeslání poptávky rezervaci?<span aria-hidden="true">+</span></summary><p>Ne. Poptávka je nezávazná. Termín, cenu, vybavení a podmínky potvrdíme individuálně. V tomto prezentačním náhledu se poptávky neodesílají.</p></details></section>
+    <footer id="kontakt"><div class="footer-top"><img src="assets/logo.svg" alt="Hotel Belvedere Praha" width="180" height="90"><div><p class="eyebrow">TĚŠÍME SE NA VAŠE SETKÁNÍ</p><p>Milady Horákové 19<br>170 00 Praha 7 · Česká republika</p></div><div><a href="tel:+420220106111">+420 220 106 111</a><a href="mailto:belvedere@hhotels.cz">belvedere@hhotels.cz</a><a class="text-link" href="https://www.hotelbelvedereprague.cz/cz/">Navštívit hlavní web</a></div></div><div class="footer-bottom"><span>© Hotel Belvedere Praha · H&Hotels Group</span><span>Prezentační návrh konferenční podstránky</span><a href="https://www.hotelbelvedereprague.cz/cz/gdpr/">Ochrana osobních údajů</a></div></footer>
+  </main>
+  <a class="mobile-cta button filled" href="#poptavka">Nezávazná poptávka</a>
+  <dialog id="media-dialog" aria-label="Prohlídka konferenčních prostor"><button class="dialog-close" aria-label="Zavřít prohlídku">✕</button><div id="media-content"></div><p id="media-caption"></p></dialog>
+</body>
+</html>
